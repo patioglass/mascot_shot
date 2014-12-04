@@ -1,0 +1,246 @@
+	body{
+				margin: 0;
+				padding: 0;
+				font-family: "Anzu";
+			}
+			@font-face{
+				font-family:'Anzu';
+				src:url(../Anzu.ttf);
+			}
+			.head_wrapper{
+				min-width:921px;
+			}
+			.wrapper{
+				min-width: 921px;
+				max-width: 1280px;
+				margin: 0 auto;
+			}
+
+			#enchant-stage{
+				text-align: center;
+				border-top: 2px solid #ccc;
+				border-bottom: 5px solid #ccc;
+				border-left: 3px solid #ccc;
+				border-right: 3px solid #ccc;
+				margin: 0 auto;
+				display: none;
+			}
+			.menu{
+				width: 25%;
+				margin-left: 50px;
+				display: inline-block;
+				text-align: center;
+			}
+			.title{
+				width: 100%;
+				text-align: center;
+			}
+			.title h1{
+				font-size:70px;
+			}
+			.logo{
+				display: inline-block;
+				margin-top: 10%;
+			}
+			.logo img{
+				width: 100%;
+				height: 100%;
+			}
+			.picture{
+				display: inline-block;
+				width: 45%;
+				margin-left: 13%;
+			}
+			.picture img{
+				width: 110%;
+				height: 110%;
+			}
+			.rule li{
+				width: 45%;
+				min-height: 400px;
+				text-align: center;
+				list-style: none;
+				margin-top: 1%;
+				margin-left: 2%;
+				display: inline-block;
+				background-color: #fff;
+				padding-top:50px;
+				vertical-align: top;
+			}
+			.finish_sample{
+				width: 95%;
+			}
+
+			.detail{
+				width: 100%;
+				padding-bottom: 10px;
+				background-color: #F0E8D7;
+				border-radius: 30px;
+			}
+			.result{
+				width: 1100px;
+				font-size: 60px;
+				margin-top:350px; 
+				text-align: center;
+			}
+			.restart{
+				width: 1100px;
+				height: 60px;
+				font-size: 40px;
+				margin-top: 450px;
+				text-align: center;
+				border-bottom: solid 1px #ccc;
+				cursor: pointer;
+			}
+			.restart:hover{
+				color: #FFA400;
+			}
+			.tweet_result{
+				width: 1100px;
+				height: 60px;
+				font-size: 40px;
+				margin-top: 550px;
+				text-align: center;
+				border-bottom: solid 1px #ccc;
+			}
+			.tweet_result a{
+				color: #000;
+				text-decoration: none;
+			}
+			.tweet_result a:hover{
+				color: #FFA400;
+			}
+			.ranking_all{
+				width: 1100px;
+				height: 60px;
+				font-size: 40px;
+				margin-top: 650px;
+				text-align: center;
+				border-bottom: solid 1px #ccc;
+			}
+			.ranking_all a{
+				color: #000;
+				text-decoration: none;
+			}
+			.ranking_all a:hover{
+				color: #FFA400;
+			}
+			.ranking{
+				display: none;
+				width: 1100px;
+				height: 60px;
+				font-size: 40px;
+				text-align: center;
+				border-bottom: solid 1px #ccc;
+				cursor: pointer;
+			}
+			.gamestart{
+				margin-top: 100px;
+				font-size:150%;
+				padding: 20px;
+				border-radius: 20px;
+				border:ridge 3px #ccc;
+				cursor: pointer;
+			}
+			.gamestart:hover{
+				color: #FF4141;
+			}
+			.scroll-rule{
+				margin-top: 30px;
+				font-size:150%;
+				padding: 20px;
+				border-radius: 20px;
+				border:ridge 3px #ccc;
+				background-color: #fff;
+				cursor: pointer;
+				z-index: 1000;
+			}
+			.scroll-rule:hover{
+				color: #FF4141;
+			}
+			.tweet{
+				width: 100%;
+				height: 80px;
+				margin: 0 auto;
+			}
+			.twitter-share-button{
+				float: right;
+			}
+			.point_10{
+				text-align: center;
+				min-width: 70px;
+				font-size: 40px;
+				color: #FFA400;
+				background-color: #fff;
+				border-radius: 40px;
+
+			}
+			.point_40{
+				text-align: center;
+				min-width: 70px;
+				font-size: 60px;
+				color: #ff6347;
+				background-color: #fff;
+				border-radius: 40px;
+			}
+			.point_max{
+				text-align: center;
+				width: 120px;
+				font-size: 80px;
+				color: #ff0000;
+				background-color: #fff;
+				border-radius: 40px;
+			}
+			.result_score{
+				text-align: center;
+				font-size: 40px;
+				min-width: 300px;
+				height: 50px;
+				background-color: #fff;
+				border-radius: 40px;
+				border:solid 1px #ccc;
+			}
+			.char_num{
+				font-size: 30px;
+				width: 100px;
+				height: 30px;
+				text-align: center;
+				background-color: #fff;
+				border-radius: 10px;
+				border:solid 1px #ccc;
+			}
+			.pose{
+				width: 1280px;
+				height: 830px;
+				font-size: 100px;
+				text-align: center;
+				padding-top: 300px;
+				background-color:rgba(255,255,255,0.7);
+				cursor: pointer;
+			}
+			.pose_button{
+				width: 130px;
+				text-align: center;
+				border:double 2px #000;
+				font-size: 40px;
+				background-color: #fff;
+				cursor: pointer;
+			}
+			.pose_button:hover{
+				color: #ff6347;
+				border-color: #ff6347;
+			}
+
+			.charactor_left img{
+				margin-left: 40px;
+				width: 10%;
+				height: 10%;
+				cursor: pointer;
+			}
+			.patio a{
+				font-size: 25px;
+				color: #ff6347;
+			}
+			.patio a:hover{
+				color:#49C1FF;
+			}
